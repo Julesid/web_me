@@ -2,7 +2,9 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      'perso': "url('../img/picture4k.png')",
+    },
     colors: {
       monblanc: '#ffedd5',
     },
